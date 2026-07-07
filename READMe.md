@@ -1,4 +1,4 @@
-# 🚀 DevOps & Cloud Engineering — Learning Journey
+#  DevOps & Cloud Engineering — Learning Journey
 
 Hi! I'm Harshita, a final-year Computer Science student on a mission to build 
 strong, hands-on skills in **Linux, Cloud Infrastructure, and DevOps practices**.
@@ -9,7 +9,7 @@ Consistency over perfection. 💪
 
 ---
 
-## 🧭 Why This Repo?
+##  Why This Repo?
 
 I believe the best way to learn infrastructure and DevOps is by **doing**, not just reading. 
 This is my public commitment to learning in the open — tracking real progress, 
@@ -19,18 +19,18 @@ one topic at a time.
 
 ---
 
-## 📅 Daily Progress Log
+##  Daily Progress Log
 
 | Day | Date | Topic | Notes |
 |-----|------|-------|-------|
-| 01 | - | Linux Basics (Revision) | [View](./day-01-linux-basics.md) |
+| 01 | - | Networking Basics (Revision) | [View](./day1/networking.md) |
 
  *(Updated regularly — new entries added as I learn)*
 
 
 ---
 
-## 📜 Certifications
+##  Certifications
 
 - Red Hat Certified System Administrator (RHCSA)
 - Red Hat Certified Engineer (RHCE)
