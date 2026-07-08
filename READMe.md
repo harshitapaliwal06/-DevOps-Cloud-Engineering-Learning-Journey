@@ -36,4 +36,4 @@ one topic at a time.
 - Red Hat Certified Engineer (RHCE)
 
 
-*"The expert in anything was once a beginner."*
+
