@@ -153,6 +153,7 @@
 - `crontab -u username -e` — edit another user's cron jobs
 
 **Cron syntax:**
+![Cron Syntax Diagram](cronimage.jpeg)
 
 **Examples:**
 - `*/5 * * * *` — every 5 minutes
