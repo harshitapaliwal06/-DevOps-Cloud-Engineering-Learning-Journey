@@ -60,8 +60,11 @@ Used to delete users.
 - `-S` check password status
 - `-d` delete password
 
-**`chage` — Change Age of Password**
+## Password policies 
+### **password aging**
+    **`chage` — Change Age of Password**
 Manages password expiry policies.
+
 - `-l username` display password aging details
 - `-d` last password change date
 - `-m` minimum age before password can be changed
@@ -70,7 +73,30 @@ Manages password expiry policies.
 - `-E` account expiry date
 - `-I` inactive period after expiry
 - To force password change on next login: `chage -d 0 username`
-
+  
+  
+          
+### **password complexity**
+   - minimum length
+   - uppercase
+   - lowercase
+   - digits
+   - special characters
+   - dictionary words
+### **Account Locking** : 
+  - after how many times of wrong attempt password locked
+   - `faillock`- used to protect the system from brute-force attack
+     - It tracks failed login attempts for users.
+     - It can temporarily lock a user account after a specified number of failed logins.
+     - It works through the PAM
+       - `faillock --user username ` - check failed attempts of particular user
+       - `faillock --user username --reset `- reset failed attempts
+- PAM = Pluggable Authentication Modules
+  - framework that provides authentication ,authorization,account management and password management
+  -  **/etc/pam.d/** directory contains config files of diffrent services
+### **password history**
+ so that user does not use same password again and again 
+    
 ### Group Management
 - A **group** is a collection of users that share the same access/permissions
 - **Primary group** — default group assigned to a user
