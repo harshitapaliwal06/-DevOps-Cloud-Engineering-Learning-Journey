@@ -23,8 +23,9 @@ one topic at a time.
 
 | Day | Date | Topic | Notes |
 |-----|------|-------|-------|
-| 01 | 8-7-26 | Linux  | [View](./day1/linux.md) |
-| 02 | 9-7-26 | networking basics , linux | [view(networking)](./day2/Networking-basics.md ) \| [view(linux)](./day2/linux.md) \| [view(booting)](./day2/Booting-process_linux.md) |
+| 01 | 8-7-26 | Linux -1   | [View](./day1/linux.md) |
+| 02 | 9-7-26 | networking basics , Linux-2 | [view(networking)](./day2/Networking-basics.md ) \| [view(linux)](./day2/linux.md) \| [view(booting)](./day2/Booting-process_linux.md) |
+| 03 | 10-8-26 | Bash Script-1 , version control | [view(Bash script)](./day3/bashscript.md ) \| [view(version control)](./day3/versioncontrol.md) 
 
 
  *(Updated regularly — new entries added as I learn)*
