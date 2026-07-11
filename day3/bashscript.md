@@ -52,8 +52,8 @@
 - Goal: automate backup of a directory, save it with a timestamp
 - Example script:
   - `#!/bin/bash`
-  - `directory_to_backup="/root/GitS2"`
-  - `directory_backup_location="/root/myproject"`
+  - `directory_to_backup="/root/Gits2"`
+  - `directory_backup_location="/root/Gits1"`
   - `current_timestamp=$(date +%Y-%m-%d-%H-%M-%S)`
   - `tar -czf "$directory_backup_location/backup-$current_timestamp.tar.gz" "$directory_to_backup"`
 - If path shouldn't be hardcoded, use positional parameters instead:
