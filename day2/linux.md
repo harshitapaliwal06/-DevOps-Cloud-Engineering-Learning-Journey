@@ -15,7 +15,6 @@
 - `setfacl -d -m u:username:rwx directory` — set default ACL on existing files in a directory
 - `setfacl -k directory` — remove default ACL from a directory
 - ACL Mask — defines the maximum effective permissions allowed
-- Inode fields include: filename, file size, permissions, timestamps, owner, etc. — the actual data is stored in a separate data block
 
 ---
 
